@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 const API_URL = "https://prim.iledefrance-mobilites.fr/marketplace/gtfs-rt/vehicle-position";
-const API_KEY = "TA_CLE_API_IDFM";  // mets ta clé ici
+const API_KEY = "7y6UbPM2nv9RWlmqfQ0waaazmH0ri5Im";  // mets ta clé ici
 
 app.get("/rer", async (req, res) => {
     try {
